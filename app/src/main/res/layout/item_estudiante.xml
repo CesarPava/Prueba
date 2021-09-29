@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    >
+
+    <RelativeLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imagen_estudiante"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#000"
+        />
+
+    <TextView
+        android:id="@+id/nombre_estudiante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:layout_toRightOf="@id/imagen_estudiante"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+    />
+        <TextView
+            android:id="@+id/codigo_estudiante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nombre_estudiante"
+            android:layout_alignStart="@+id/nombre_estudiante"
+            android:text="Codigo estudiante"
+            />
+
+        <TextView
+            android:id="@+id/fecha_estudiante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/codigo_estudiante"
+            android:layout_alignStart="@+id/codigo_estudiante"
+            android:text="Fecha nacimiento estudiante"
+            />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

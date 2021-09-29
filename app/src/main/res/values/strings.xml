@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="btn_normal">botón normal</string>
+    <string name="encendido">Encendido</string>
+    <string name="texto_modificado">Texto modificado por el activity</string>
+    <string-array name="pokemon">
+        <item>Pikachu</item>
+        <item>Pikachu2</item>
+        <item>Pikachu3</item>
+        <item>Pikachu4</item>
+
+    </string-array>
+</resources>

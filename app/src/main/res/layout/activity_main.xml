@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:id="@+id/texto_principal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_above="@+id/btnPantalla2" />
+
+
+    <Button
+        android:id="@+id/btnPantalla2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ir a pantalla 2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="irPantalla2"
+    />
+
+    <Button
+        android:id="@+id/btnPantalla3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ir a pantalla 3"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnPantalla2"
+        android:onClick="irPantalla3"
+        />
+
+    <Button
+        android:id="@+id/btnCambiarTexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambiar Text View"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnPantalla3"
+        android:onClick="cambiarTexto"
+        />
+
+    <Button
+        android:id="@+id/btnPantalla5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Linear Layout"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnCambiarTexto"
+        android:onClick="irPantalla4"
+        />
+
+    <Button
+        android:id="@+id/btnLista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lista Estudiantes"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnPantalla5"
+        android:onClick="irListaEstudiantes"
+        />
+
+
+
+</RelativeLayout>

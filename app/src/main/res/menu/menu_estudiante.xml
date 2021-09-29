@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_agregar"
+        android:icon="@android:drawable/ic_menu_add"
+        android:orderInCategory="1"
+        android:title="Guardar Nuevo"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/menu_modificar"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:orderInCategory="3"
+        android:title="Modificar Estudiante"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/menu_eliminar"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:orderInCategory="2"
+        android:title="Eliminar"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/menu_buscar"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Buscar"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView"
+        />
+</menu>
